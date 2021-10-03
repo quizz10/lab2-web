@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height:100%;
+}
+
+body {
+    background-color: white;
+    background-image: url(../img/pen-paper.jpeg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #5b52b3;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+.navbar .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navcontainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+
+
+.underline:hover{
+    border-bottom: 2px solid white;
+}
+
+
+h1 {
+    font-family: 'Yaldevi', sans-serif;
+
+}
+
+p {
+    font-family: 'Yaldevi', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.tasktable {
+    margin: 1em 0;
+    border-collapse: collapse;
+    font-size: .85em;
+    min-width: 400px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.tasktable thead tr {
+    background: #ff6e00;
+}
+
+.wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.newtask {
+    display: grid;
+    margin-top: 30px;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.tasktable th,
+.tasktable td {
+    padding: .3em .5em;
+}
+
+
+.tasktable td {
+    color: #e1e1e1;
+}
+
+
+
+.tasktable tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.tasktable tbody tr:last-child{
+    border: none;
+}
+
+tbody {
+    background: #515151;
+}
+
+.archive {
+    display: grid;
+    justify-content: center;
+}
+
+.archivebtn{
+    padding: 10px 35px;
+    background-color: #5b52b3;
+    font-size: 20px;
+    font-family: 'Yaldevi', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 1em;
+}
+
+
+.tasktable .status {
+    width: 150px;
+    text-align: center;
+}
+
+.finished {
+    display: grid;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    background-color: #ff6e00;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 1em;
+
+}
+
+.finishedtable{
+    padding: 0 20px 20px 20px;
+
+}
+
+.finishedtable tr td{
+    margin: 50px
+}
+
+.finished h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.finished tbody td{
+    opacity: 0.5;
+
+}
+
+
+.finished tbody td:hover {
+    transition: ease-in 0.2s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.finished-tasks{
+    color: #515151;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.newtask {
+    justify-content: center;
+}
+
+
+.taskform {
+    justify-content: center;
+    display: flex;
+}
+
+
+.submitbutton {
+
+    background-color: #5b52b3;
+    border: none;
+    margin-left: 10%;
+    padding: 10px 20px;
+    border-radius: .5em;
+    color: white;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 20px;
+}
+
+
+.form {
+    border: none;
+    opacity: 0.3;
+}
+
+.form:focus {
+    opacity: 1;
+    font-size: 24px;
+}
